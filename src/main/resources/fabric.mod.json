@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "reinkarnicaja_mod",
+  "version": "1.0.0",
+  "name": "Reincarnation Mod",
+  "description": "Mushoku Tensei: Reincarnation of the Jobless mod for Fabric 1.21.1",
+  "authors": ["Reinkarnicaja Team"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/reinkarnicaja_mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.reinkarnicaja.mod.ReincarnationMod"],
+    "client": ["com.reinkarnicaja.mod.client.ReincarnationModClient"]
+  },
+  "mixins": [
+    "reinkarnicaja_mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

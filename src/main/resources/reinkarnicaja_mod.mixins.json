@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.reinkarnicaja.mod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "DamageMixin",
+    "PlayerEntityMixin",
+    "KnockbackMixin",
+    "MobFearMixin",
+    "InventoryMixin"
+  ],
+  "client": [
+    "client.InGameHudMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
