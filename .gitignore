@@ -1,51 +1,81 @@
 ```
-# Compiled and build artifacts
-*.jar
-*.class
-*.o
-*.obj
-*.out
-
 # Dependencies
 .gradle/
-node_modules/
-
-# Build directories
 build/
-dist/
-target/
 
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# Logs
+# Logs and temp files
 *.log
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Python specific
+# Editors
+.vscode/
+.idea/
+
+# Coverage
+.coverage
+coverage/
+htmlcov/
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
 *.so
-.pytest_cache/
-.mypy_cache/
+*.egg-info/
+.eggs/
 
-# System files
+# Node.js
+node_modules/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.hprof
+hs_err_pid*
+
+# C/C++
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+
+# IDE
+.nyc_output/
+.mypy_cache/
+.pytest_cache/
+.julia/
+zig-cache/
+zig-out/
+target/
 ```
