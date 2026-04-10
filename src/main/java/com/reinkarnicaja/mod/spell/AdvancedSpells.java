@@ -1,5 +1,10 @@
 package com.reinkarnicaja.mod.spell;
 
+import com.reinkarnicaja.mod.character.CombatStyle;
+import com.reinkarnicaja.mod.rank.Rank;
+
+import java.util.List;
+
 /**
  * Расширение SpellData с новыми заклинаниями Рудеуса.
  * Добавляет: ELECTRIC, DISTURB_MAGIC, ABSOLUTE_ZERO, STONE_CANNON_EMP, CHAOS_MAGIC, NUCLEAR_EXPLOSION
@@ -127,12 +132,19 @@ public class AdvancedSpells {
     /**
      * Проверка является ли заклинание эксклюзивным для Рудеуса
      */
-    public static boolean isRudeusOnly(SpellData spell) {
+    public static boolean isRudeusExclusive(SpellData spell) {
         return spell == ELECTRIC || spell == DISTURB_MAGIC;
     }
 
     /**
-     * Получить заклинание по ID
+     * Получить все заклинания (основные + расширенные)
+     */
+    public static List<SpellData> getAllAdvancedSpells() {
+        return java.util.Arrays.asList(ALL_ADVANCED_SPELLS);
+    }
+
+    /**
+     * Получить заклинание по ID из расширенных
      */
     public static SpellData getById(String id) {
         for (SpellData spell : ALL_ADVANCED_SPELLS) {

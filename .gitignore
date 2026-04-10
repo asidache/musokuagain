@@ -1,0 +1,51 @@
+```
+# Compiled and build artifacts
+*.jar
+*.class
+*.o
+*.obj
+*.out
+
+# Dependencies
+.gradle/
+node_modules/
+
+# Build directories
+build/
+dist/
+target/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# System files
+.DS_Store
+Thumbs.db
+```

@@ -76,9 +76,31 @@
   "combat_style.reinkarnicaja_mod.sword": "Стиль Меча",
   "combat_style.reinkarnicaja_mod.magic": "Магия",
   
+  "key.reinkarnicaja_mod.open_character_select": "Выбрать персонажа",
   "key.reinkarnicaja_mod.open_spell_menu": "Открыть меню заклинаний",
   "key.reinkarnicaja_mod.toggle_battle_spirit": "Боевой Дух",
-  "key.reinkarnicaja_mod.select_character": "Выбрать персонажа",
+  "key.reinkarnicaja.spell_slot_1": "Заклинание (слот 1)",
+  "key.reinkarnicaja.spell_slot_2": "Заклинание (слот 2)",
+  "key.reinkarnicaja.spell_slot_3": "Заклинание (слот 3)",
+  "key.reinkarnicaja.spell_slot_4": "Заклинание (слот 4)",
+  "key.reinkarnicaja.spell_slot_5": "Заклинание (слот 5)",
+  "key.reinkarnicaja.spell_slot_6": "Заклинание (слот 6)",
+  "key.reinkarnicaja.spell_slot_7": "Заклинание (слот 7)",
+  "key.reinkarnicaja.spell_slot_8": "Заклинание (слот 8)",
+  "key.reinkarnicaja.spell_slot_9": "Заклинание (слот 9)",
+  "key.reinkarnicaja_mod.spell_bind_1": "Заклинание (слот 1)",
+  "key.reinkarnicaja_mod.spell_bind_2": "Заклинание (слот 2)",
+  "key.reinkarnicaja_mod.spell_bind_3": "Заклинание (слот 3)",
+  "key.reinkarnicaja_mod.spell_bind_4": "Заклинание (слот 4)",
+  "key.reinkarnicaja_mod.spell_bind_5": "Заклинание (слот 5)",
+  "key.reinkarnicaja_mod.spell_bind_6": "Заклинание (слот 6)",
+  "key.reinkarnicaja_mod.spell_bind_7": "Заклинание (слот 7)",
+  "key.reinkarnicaja_mod.spell_bind_8": "Заклинание (слот 8)",
+  "key.reinkarnicaja_mod.spell_bind_9": "Заклинание (слот 9)",
+  
+  "category.reinkarnicaja_mod.general": "Reincarnation Mod - Основное",
+  "category.reinkarnicaja_mod.spells": "Reincarnation Mod - Заклинания",
+  "key.categories.reinkarnicaja": "Reincarnation Mod",
   
   "hud.reinkarnicaja_mod.mana": "Мана",
   "hud.reinkarnicaja_mod.xp": "Опыт",
@@ -96,5 +118,9 @@
   "boss.reinkarnicaja_mod.hydra": "Гидра",
   "boss.reinkarnicaja_mod.holy_sword_demon": "Демон Святого Меча",
   "boss.reinkarnicaja_mod.ancient_dragon": "Древний Дракон",
-  "boss.reinkarnicaja_mod.demon_lord_laplace": "Демон-Лорд Лаплас"
+  "boss.reinkarnicaja_mod.demon_lord_laplace": "Демон-Лорд Лаплас",
+  "boss.reinkarnicaja_mod.spawned": "⚠️ %s появился в мире!",
+  "boss.reinkarnicaja_mod.killed": "✓ %s побеждён!",
+  "boss.reinkarnicaja_mod.reward": "🎁 Вы получили награду за победу!",
+  "boss.reinkarnicaja_mod.reward_received": "%s получил награду за убийство %s"
 }
